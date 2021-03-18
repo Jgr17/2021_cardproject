@@ -33,7 +33,21 @@ function Shuffle(Deck){
 }
 
 //This function will show the card in the top of deck
+/*
 function ShowDeck(Deck){
     document.getElementById("deck").innerHTML = Deck[0].Colour + Deck[0].Value;
 
+}
+*/
+
+function pickCards(Deck) {
+    let playerOneDeck = [];
+    let playerTwoDeck = [];
+    let i = 1 ;
+    while (i<Deck.length){
+        if(Deck[i-1].Colour==Deck[i].Colour){
+            if (Deck[i-1].Value)
+        }
+    }
+    
 }
