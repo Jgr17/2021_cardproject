@@ -76,4 +76,5 @@ function pickCards(Deck) {
     return playersDeck;
     }
 
+//TEST
 
